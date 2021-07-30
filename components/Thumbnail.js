@@ -18,6 +18,7 @@ const Thumbnail = forwardRef(({ result}, ref) => {
         }
         height={720}
         width={900}
+        alt='image'
       />
       <div className='p-2'>
         <p className='truncate max-w-md '>{result.overview}</p>

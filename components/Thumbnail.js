@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/display-name
 import Image from 'next/image'
 import { ThumbUpIcon } from '@heroicons/react/outline'
 import { forwardRef } from 'react'
@@ -33,5 +34,5 @@ const Thumbnail = forwardRef(({ result }, ref) => {
     </div>
   )
 })
-// eslint-disable-next-line react/display-name
+
 export default Thumbnail
